@@ -7,8 +7,9 @@ This is my final work (all requirments and bonus and super bonus in two days):
 2. I used `@media` and add some css code to make everything looks good in mobile or smaller screen.
 3. I implement function of `LISTEN NOW` button. It would make screen scroll down to album part.
 4. I put some mp3 file in the website so that if you click on the song name, there would be music (same one song).
-5. I implement all social media button and link them to my homepage.
-6. I put everything in `gulp` so that I can use a `scss` compiler and make website syncronized after I change any code.
+5. I set a validation function in the subscribe form. It would check if your mail box is correct and if you fail to fill some form. After submit, the form would disappear and thank you words would be shown.
+6. I implement all social media button and link them to my homepage.
+7. I put everything in `gulp` so that I can use a `scss` compiler and make website syncronized after I change any code.
 
 ## Next to do
 Something else need to do but not required by the examiners:
