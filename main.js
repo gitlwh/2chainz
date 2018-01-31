@@ -6,14 +6,7 @@ $(document).ready(function(){
 	    }, 2000);
 	});
 
-	//play music
-	var x = document.getElementById("myAudio"); 
-	function playAudio() { 
-	    x.play(); 
-	}
-	function pauseAudio() { 
-	    x.pause(); 
-	}
+	
 
 	//place form
 	$("#submitform").submit(
@@ -24,4 +17,11 @@ $(document).ready(function(){
 		}
 	);
 
-}) 
+});
+//play music
+	function playAudio() { 
+	    $("#myAudio")[0].play(); 
+	}
+	function pauseAudio() { 
+	    $("#myAudio")[0].pause(); 
+	}

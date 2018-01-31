@@ -13,7 +13,8 @@ This is my final work (all requirments and bonus and super bonus in two days):
 ## Next to do
 Something else need to do but not required by the examiners:
 1. I used defaut font everywhere.
-2. I didn't collect enough news and images and songs about 2 CHAINZ so I just put same thing every where.
+2. I didn't well tune the color as the image.
+3. I didn't collect enough news and images and songs about 2 CHAINZ so I just put same thing every where.
 
 ## How to run
 1. Git clone the whole zip and go into it.
