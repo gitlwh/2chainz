@@ -1,7 +1,7 @@
 # 2 CHAINZ website demo
 This is a text given by Halo Media when I am applying for their web developer position. My task is to implement a demo of a website based on one psd file.
 
-## description
+## Description
 This is my final work (all requirments and bonus and super bonus in two days):
 1. I used bootstrap to make the website just looks like that shown in psd file.
 2. I used `@media` and add some css code to make everything looks good in mobile or smaller screen.
