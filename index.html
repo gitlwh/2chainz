@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>2 CHAINZ OFFICIAL</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!--facebook icon-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="main.css">
+<script src="main.js"></script>
+
+</head>
+<body>
+
+<div class="mainpage">
+	<div class = "innerwrapper">
+		<nav class="navbar navbar-expand-lg navbar-light">
+		<a class="navbar-brand d-block d-lg-none whitetext" href="#" style="float: left;text-align: center;font-size: 40px;">2 CHAINZ</a>
+	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	        <ul class="navbar-nav col-sm-5" >
+	            <li class="nav-item">
+	                <a class="nav-link whitetext" href="#">NEWS</a>
+	            </li>
+	            <li class="nav-item">
+	                <a class="nav-link whitetext" href="#">MUSIC</a>
+	            </li>
+	            <li class="nav-item">
+	                <a class="nav-link whitetext" href="#">VIDEO</a>
+	            </li>
+	            <li class="nav-item">
+	                <a class="nav-link whitetext" href="#">PHOTOS</a>
+	            </li>
+	            <li class="nav-item">
+	                <a class="nav-link whitetext" href="#">STORE</a>
+	            </li>
+	        </ul>
+
+	        <a class="navbar-brand col-sm-2 whitetext disappearthing" href="#" style="float: left;text-align: center;font-size: 40px;">
+	        2 CHAINZ
+	        </a>
+	        <a class="ml-auto collapse navbar-collapse">
+	        	
+	        	<div class="footer-social-icons disappearthing" id = "social-icons">
+					    <ul class="social-icons">
+					        <li><a href="https://gitlwh.github.io/" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+					        <li><a href="https://gitlwh.github.io/" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+					        <li><a href="https://gitlwh.github.io/" class="social-icon"> <i class="fa fa-rss"></i></a></li>
+					        <li><a href="https://gitlwh.github.io/" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+					        <li><a href="https://gitlwh.github.io/" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+					        <li><a href="https://gitlwh.github.io/" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+					    </ul>
+					</div>
+	        	<a class="loginbutton whitetext nav-item" href="">login</a>
+	        </a>
+			
+	    </div>
+	    
+	</nav>
+		<div class="covercontent">
+	    	<div class="whitetext bigtitle">Pretty Girls<br> Like Trap Music</div>
+	    	<button id="toablum" type="button" class="listennowbtn btn btn-secondary col-sm-5">LISTEN NOW</button>
+	    	
+	    	
+	    </div>
+
+	</div>
+	<div class="secondpage" id="ablum">
+		<div class="secondoutter">
+			<img src="cover.jpeg" class="imagepart"></img>
+			<div class="wordspart">
+				<div style="color: #FF9800;">NEA ALBUM</div>
+				<div class="albumname">Pretty Girls Like Trap Music</div>
+				<div class="">
+					<button type="button" class="btn shopbtn"><i class="fa fa-spotify" aria-hidden="true">SPOTIFY</i></button>
+					<button type="button" class="btn shopbtn"><i class="fa fa-amazon" aria-hidden="true">AMAZON MUSIC</i></button>
+					<button type="button" class="btn shopbtn"><i class="fa fa-apple" aria-hidden="true">ITUNES</i></button>
+					<button type="button" class="btn shopbtn"><i class="fa fa-google" aria-hidden="true">GOOGLE MUSIC</i></button>
+				</div>
+				<audio id="myAudio">
+				  <source src="music1.mp3" type="audio/mpeg">
+				  Your browser does not support the audio element.
+				</audio>
+				<table class="songtable" style="width:100%">
+				  <tr>
+				    <td class="onesong" onclick="playAudio()"><span class = "songindex">1</span><span>song1</span></td>
+				    <td class="onesong" onclick="playAudio()"><span class = "songindex">6</span><span>song6</span></td>
+				  </tr>
+				  <tr>
+				    <td class="onesong" onclick="playAudio()"><span class = "songindex">2</span><span>song2</span></td>
+				    <td class="onesong" onclick="playAudio()"><span class = "songindex">7</span><span>song7</span></td>
+				  </tr>
+				  <tr>
+				    <td class="onesong" onclick="playAudio()"><span class = "songindex">3</span><span>song3</span></td>
+				    <td class="onesong" onclick="playAudio()"><span class = "songindex">8</span><span>song8</span></td>
+				  </tr>
+				  <tr>
+				    <td class="onesong" onclick="playAudio()"><span class = "songindex">4</span><span>song4</span></td>
+				    <td class="onesong" onclick="playAudio()"><span class = "songindex">9</span><span>song9</span></td>
+				  </tr>
+				  <tr>
+				    <td class="onesong" onclick="playAudio()"><span class = "songindex">5</span><span>song5</span></td>
+				    <td class="onesong" onclick="playAudio()"><span class = "songindex">10</span><span>song10</span></td>
+				  </tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div class="thirdpage">
+		<div class="thirdoutter">
+			<div class = "newstitle">NEWS</div>
+			<div class = "newsgalary">
+				<div class="largercavas">
+					<!--img class="largerimg" src="largergalary.jpg"-->
+					<div class="largercomment opacitytitle">
+						<div class="comment1">watch Z and asfsafasfasfsaf</div>
+						<a class="comment2" href="www.baidu.com" style="color: white;opacity: 1;">READ MORE ></a>
+					</div>
+				</div>
+				<div class="smallercanvas">
+					<div class="smallercanvas2">
+					<!--img class="largerimg" src="largergalary.jpg"-->
+						<div class="smallercomment opacitytitle">
+							<div class="comment1">watch Z and asfsafasfasfsaf</div>
+						</div>
+					</div>
+					<div class="smallercanvas2">
+					<!--img class="largerimg" src="largergalary.jpg"-->
+						<div class="smallercomment opacitytitle">
+							<div class="comment1">watch Z and asfsafasfasfsaf</div>
+						</div>
+					</div>
+					<div class="smallercanvas2">
+					<!--img class="largerimg" src="largergalary.jpg"-->
+						<div class="smallercomment opacitytitle">
+							<div class="comment1">watch Z and asfsafasfasfsaf</div>
+						</div>
+					</div>
+					<div class="smallercanvas2">
+					<!--img class="largerimg" src="largergalary.jpg"-->
+						<div class="smallercomment opacitytitle">
+							<div class="comment1">watch Z and asfsafasfasfsaf</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="viewmorebutton d-flex justify-content-center align-items-center">
+				<button type="button" class="darkbtn btn btn-secondary col-sm-4">VIEW MORE</button>
+			</div>
+			
+			
+		</div>
+		
+	</div>
+	<div class="fourthpage">
+		<div class="fourthcontent">
+			<div class="tourtitle">TOUR DATES</div>
+			<div>
+				<table class="songtable" style="width:100%">
+				  <tr class="oneevent">
+				    <td class="mydate">APR 14th</td>
+				    <td class="myposition">CRISLER CENTER</td>
+				    <td class="mycity">Ann Arbor, MI</td>
+				    <td class="buytickets"><button type="button" class=" darkbtn btn btn-secondary">TICKETS</button></td>
+				  </tr>
+				  <tr class="oneevent">
+				    <td class="mydate">APR 19th</td>
+				    <td class="myposition">LEHIGH UNIVERSITY</td>
+				    <td class="mycity">Bethlehem, PA</td>
+				    <td class="buytickets"><button type="button" class="darkbtn btn btn-secondary">TICKETS</button></td>
+				  </tr><tr class="oneevent">
+				    <td class="mydate">APR 14th</td>
+				    <td class="myposition">CRISLER CENTER</td>
+				    <td class="mycity">Ann Arbor, MI</td>
+				    <td class="buytickets"><button type="button" class="darkbtn btn btn-secondary">TICKETS</button></td>
+				  </tr><tr class="oneevent">
+				    <td class="mydate">APR 14th</td>
+				    <td class="myposition">CRISLER CENTER</td>
+				    <td class="mycity">Ann Arbor, MI</td>
+				    <td class="buytickets"><button type="button" class="darkbtn btn btn-secondary">TICKETS</button></td>
+				  </tr><tr class="oneevent">
+				    <td class="mydate">APR 14th</td>
+				    <td class="myposition">CRISLER CENTER</td>
+				    <td class="mycity">Ann Arbor, MI</td>
+				    <td class="buytickets"><button type="button" class="darkbtn btn btn-secondary">TICKETS</button></td>
+				  </tr>
+				  </tr><tr class="oneevent"></tr>
+				  </tr><tr class="oneevent"></tr>
+				</table>
+			</div>
+			
+
+		</div>
+		
+
+
+		<div class="fourthonlyimg">
+			<div class="fourthinnerwrapper">
+			
+			</div>
+
+		</div>
+	</div>
+	<div class="lastpage" id="thankswords" style="display: none;color: white;
+    font-size: 30px;">Thank You for submitting!</div>
+	<div class="lastpage">
+		<div id="newsform">
+			<div class="tourtitle">NEWSLETTER</div>
+			<div class="inputbars">
+				<form id = "submitform">
+					<input class="myinput col-sm-4" type="email" class="form-control" placeholder="EMAIL ADDRESS *" required>
+					<input class="myinput col-sm-4" type="text" class="form-control" placeholder="ZIP CODE *" required>
+					<button type="submit" style="display: none;" id="virtualbtn" class="btn btn-primary">Submit</button>
+				</form>
+			</div> 
+			<div class="subscribemessage">SUBSCRIBE TO EMAIL UPDATES FROM:</div>
+			<div class="choices">
+				<label class="checkbox-inline choice"><input type="checkbox" value="">    2 CHAINZ</label>
+				<label class="checkbox-inline choice"><input type="checkbox" value="">    DEF JAM RECORDS</label>
+				<label class="checkbox-inline choice"><input type="checkbox" value="">    UNIVERSAL MUSIC GROUP</label>
+			</div>
+			<div class="remidermessage">By selecting submit you agree to the Universal Music Group privacy policy</div>
+			<div style="margin-bottom: 50px;">
+				<button type="button" onclick="$('#virtualbtn').click();" class=" darkbtn btn col-sm-2 submitbtn">SUBMIT</button>
+			</div>
+
+
+		</div>
+		
+		
+		<nav class="text-lg-left navbar2 navbar-expand-lg navbar-light footer">
+
+		    <div class="text-lg-left navbar-collapse" style="height: auto;">
+		        <ul class="navbar-nav col-sm-7 centermystuff" >
+		            <li class="nav-item footeritem">
+		                <a class="nav-link whitetext" href="#">© 2017 DEF JAM RECORDS</a>
+		            </li>
+		            <li class="nav-item footeritem">
+		                <a class="nav-link whitetext" href="#">TERMS & CONDITIONS</a>
+		            </li>
+		            <li class="nav-item footeritem">
+		                <a class="nav-link whitetext" href="#">PRIVACY POLICY</a>
+		            </li>
+		        </ul>
+
+		        <div class="footer-social-icons" style="height: 40px;padding-right: 30px;">
+					    <ul class="social-icons">
+					        <li><a href="https://gitlwh.github.io/" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+					        <li><a href="https://gitlwh.github.io/" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+					        <li><a href="https://gitlwh.github.io/" class="social-icon"> <i class="fa fa-rss"></i></a></li>
+					        <li><a href="https://gitlwh.github.io/" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+					        <li><a href="https://gitlwh.github.io/" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+					        <li><a href="https://gitlwh.github.io/" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+					    </ul>
+					</div>
+				
+		    </div>
+		    
+		</nav>
+
+		
+	</div>
+
+</div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
