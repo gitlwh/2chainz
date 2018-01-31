@@ -7,7 +7,7 @@ var rename = require('gulp-rename');
 
 
 gulp.task('styles', function() {
-      return gulp.src('main.scss')
+      return gulp.src('./scss/main.scss')
         .pipe(sass({})
         .pipe(rename("main.css"))
         .on('error', sass.logError))
@@ -15,9 +15,9 @@ gulp.task('styles', function() {
 });
 
 gulp.task('default', ['styles'], function() {
-    gulp.watch('main.scss', ['styles']);
-    gulp.watch('main.js').on('change', browserSync.reload);
-    gulp.watch('index.html').on('change', browserSync.reload);
+    gulp.watch('./scss/main.scss', ['styles']);
+    gulp.watch('./js/main.js').on('change', browserSync.reload);
+    gulp.watch('./index.html').on('change', browserSync.reload);
     gulp.watch('main.css').on('change', browserSync.reload);
     browserSync.init({
         server: '.'

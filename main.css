@@ -34,7 +34,7 @@ html { background-color: #101427; }
 }
 .mainpage{
 	height: 100vh;
-	background-image: url("2chainz-4am.jpg");
+	background-image: url("./files/2chainz-4am.jpg");
 	background-size:cover
 
 }
@@ -185,7 +185,7 @@ html { background-color: #101427; }
 	display: block;
 }
 .largercavas{
-	background-image: url("largergalary.jpg");
+	background-image: url("./files/largergalary.jpg");
 	height: 400px;
 	width: 49%;
 	background-size:     cover;                      /* <------ */
@@ -196,7 +196,7 @@ html { background-color: #101427; }
 }
 @media screen and (max-width: 800px) {
 	.largercavas{
-		background-image: url("largergalary.jpg");
+		background-image: url("./files/largergalary.jpg");
 		height: 400px;
 		width: 98%;
 		background-size:     cover;                      /* <------ */
@@ -232,7 +232,7 @@ html { background-color: #101427; }
 	}
 }
 .smallercanvas2{
-	background-image: url("largergalary.jpg");
+	background-image: url("files/largergalary.jpg");
 	height: 48%;
 	width: 48%;
 	background-size:     cover;                      /* <------ */
@@ -265,7 +265,7 @@ html { background-color: #101427; }
 	    margin-bottom: 100px;
 }
 .fourthonlyimg{
-	background-image: url("smoke.jpg");
+	background-image: url("files/smoke.jpg");
 	background-size:cover;
 	height: 80%;
 	width: 50%;
